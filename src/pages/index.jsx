@@ -1,12 +1,13 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
-import Header from "@/components/header";
 import search from "../../public/assets/search.svg";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import api from "@/services/api";
 import Card from "@/components/posts_card";
 import Footer from "@/components/footer";
+import Header from "@/components/header";
+
 import { toast, ToastContainer } from "react-toastify";
 
 export default function Home() {
