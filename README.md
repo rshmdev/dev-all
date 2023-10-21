@@ -10,11 +10,6 @@ git clone https://github.com/rshmdev/dev-all.git
 ```
 
 
-Para rodar o projeto com docker será necessario docker instalado em sua maquina
-
-Iniciando o container
-
-
 ## Rodando localmente
 
 Clone o projeto
