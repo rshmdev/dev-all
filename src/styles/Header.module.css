@@ -1,0 +1,22 @@
+.Header {
+    position: fixed;
+    top: 0; 
+    max-height: 70px;
+    width: 100vw;
+   height: 100%;
+    display: grid;
+    grid-template-areas: "logo nav";
+    margin: auto 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  }
+
+
+  .dev_all{
+    display: flex;
+    align-items: center;
+    font-family: 'Glitch Goblin', sans-serif;
+    margin-left: 3rem;    
+    color: #fff;                          
+  }
