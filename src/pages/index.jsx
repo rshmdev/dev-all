@@ -135,12 +135,6 @@ export default function Home() {
             updatedItens?.map((result, idx) => (
               <Card key={idx} post={result} />
             ))}
-
-          {updatedItens.length < 1 && (
-            <h2 style={{ color: "#fff", fontSize: "2rem" }}>
-              Nenhum resultado encontrado
-            </h2>
-          )}
         </section>
 
         {updatedItens.length > 0 && (
